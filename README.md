@@ -1,2 +1,17 @@
-# vue-process-editor
-vue cli 3 + antV G6流程流程编辑器
+![Image text](./img/intro.png)
+
+## 安装
+```
+npm install
+```
+
+### 运行
+```
+npm run serve or npm run dev
+```
+
+### 编译
+```
+npm run build
+```
+

@@ -1,0 +1,29 @@
+{
+  "name": "vue-process-editor",
+  "version": "0.8.0",
+  "author": "leogcry22",
+  "private": false,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --name vue-process-editor --dest lib ./packages/index.js"
+  },
+  "main": "lib/vue-process-editor.umd.min.js",
+  "dependencies": {
+    "@antv/g6": "3.2.1",
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.12.0",
+    "normalize.css": "^8.0.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "babel-polyfill": "^6.26.0",
+    "sass": "^1.26.2",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
