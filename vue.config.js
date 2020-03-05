@@ -19,19 +19,6 @@ module.exports = {
     extract: false
   },
   productionSourceMap: false,
-  // devServer: {
-  //   port: port,
-  //   open: true,
-  //   proxy: {
-  //     '/flow': {
-  //       target: 'http://10.1.89.201:9090',
-  //       changeOrigin: true,
-  //       pathRewrite: {
-  //         '^/flow': '/flow'
-  //       }
-  //     }
-  //   }
-  // },
   configureWebpack: {
     output: {
       libraryExport: 'default'
